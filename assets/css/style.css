@@ -1015,3 +1015,76 @@ footer .container .footer-right .footer-right__item .footer-right__item-list a {
         margin-top: 80px;
     }
 }
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 45px !important;
+    }
+
+    .home .container .home-center .home-center__text h1 {
+        text-align: center;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    .btn {
+        padding: 20px 40px !important;
+    }
+
+    .teachers .container .teachers-top {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    .teachers .container .teachers-bottom .teachers-bottom__right {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .teachers .container .teachers-bottom .teachers-bottom__right .teachers-bottom__right-item:nth-child(1) img,
+    .teachers .container .teachers-bottom .teachers-bottom__right .teachers-bottom__right-item:nth-child(2) img,
+    .teachers .container .teachers-bottom .teachers-bottom__right .teachers-bottom__right-item:nth-child(3) img,
+    .teachers .container .teachers-bottom .teachers-bottom__right .teachers-bottom__right-item:nth-child(4) img,
+    .teachers .container .teachers-bottom .teachers-bottom__right .teachers-bottom__right-item:nth-child(5) img,
+    .teachers .container .teachers-bottom .teachers-bottom__right .teachers-bottom__right-item:nth-child(6) img {
+        border-radius: 10px !important;
+    }
+
+    .popular-courses .container .popular-courses__items {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+
+    footer .container .footer-right {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 370px;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    .teachers .teachers-bottom .teachers-bottom__left p {
+        text-align: center;
+    }
+
+    .teachers .container .teachers-bottom .teachers-bottom__right {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
