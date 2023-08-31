@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <table border="1" style="text-align: center;">
+        <caption>
+            <h1>Usmonjon Hasanov</h1>
+        </caption>
+        <caption>Caption-Nested Table</caption>
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th colspan="2">Column 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Colspan Column</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Rowspan<br />Cell</td>
+                <td>Cell 2</td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" cellspacing="5" cellpadding="10" style="background: yellow;">
+                        <thead>
+                            <tr>
+                                <th>Inner Column<br />Heading 1</th>
+                                <th>Inner Column Heading 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="background: gray;">Inner Data Cell<br />1</td>
+                                <td style="background: #affb24;">
+                                    <table border="1" cellspacing="5" cellpadding="20" style="background: lightpink;">
+                                        <thead>
+                                            <tr>
+                                                <th>Inner Most Column<br />Heading 1</th>
+                                                <th>Inner Most Column<br />Heading 2</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="background: #ee82ef;">Inner Most Data<br />Cell 1</td>
+                                                <td style="background: coral;">Inner Most Data<br />Cell 2</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
