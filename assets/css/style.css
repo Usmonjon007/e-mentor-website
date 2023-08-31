@@ -1064,9 +1064,7 @@ footer .container .footer-right .footer-right__item .footer-right__item-list a {
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
     }
-}
 
-@media (max-width: 375px) {
     .container {
         max-width: 370px;
     }
